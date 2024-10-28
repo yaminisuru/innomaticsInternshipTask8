@@ -1,0 +1,39 @@
+/* Overall container styling */
+.details-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styling */
+h2 {
+    margin: 0;
+    color: #333;
+}
+
+/* Paragraph styling */
+p {
+    margin: 10px 0;
+    color: #555;
+    font-size: 16px;
+}
+
+/* Back link styling */
+.back-link {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #6b7aff;
+    padding: 8px 12px;
+    border: 1px solid #6b7aff;
+    border-radius: 4px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.back-link:hover {
+    background-color: #6b7aff;
+    color: white;
+}

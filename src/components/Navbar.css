@@ -1,0 +1,23 @@
+.navbar {
+    background-color: #f9f9f9;
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #6b7aff;
+    color: white;
+    border-radius: 4px;
+}

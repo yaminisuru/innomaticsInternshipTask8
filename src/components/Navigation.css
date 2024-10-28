@@ -1,0 +1,18 @@
+/* src/styles/Navigation.css */
+
+nav {
+    background-color: #4a90e2;
+    padding: 15px 20px;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
